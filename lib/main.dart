@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:warner_beach_app/config/router/app_router.dart';
-import 'package:warner_beach_app/config/router/theme/app_theme.dart';
+import 'package:warner_beach_app/config/theme/app_theme.dart';
 
 void main() => runApp(const MyApp());
 
@@ -13,7 +13,7 @@ class MyApp extends StatelessWidget {
       title: 'Warner Beach Madrid',
       debugShowCheckedModeBanner: false,
       routerConfig: appRouter,
-      theme: AppTheme(selectedColor: 2).getTheme(),
+      theme: AppTheme(selectedColor: 0).getTheme(),
     );
   }
 }
