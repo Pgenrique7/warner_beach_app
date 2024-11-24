@@ -66,6 +66,10 @@ flutter:
   assets:
      - assets/warner_beach_banner2.png
      - assets/warner_beach_banner.jpg
+     - assets/imagen_atracciones.jpg
+     - assets/imagen_restaurantes.jpg
+     - assets/imagen_mapa.jpg
+
   #   - images/a_dot_ham.jpeg
 
   # An image asset can refer to one or more resolution-specific "variants", see
